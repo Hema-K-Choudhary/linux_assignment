@@ -50,3 +50,16 @@ chmod +x "$HOME/backup_nginx.sh"
 
 echo "Backup scripts have been set up in $HOME"
 echo "Backups will be stored in $BACKUP_DIR"
+
+
+# ------ OUTPUTS  ------ 
+
+# ls ~/backups                                                
+# nginx_backup_2025-09-13.tar.gz nginx_verify_2025-09-13.log
+
+# # ./backups.sh 
+# Backup scripts have been set up in /Users/hemac
+# Backups will be stored in /Users/hemac/backups
+
+# cat ~/backups/nginx_verify_2025-09-13.log
+# Verifying backup contents:
